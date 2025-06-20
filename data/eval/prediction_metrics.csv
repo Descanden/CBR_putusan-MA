@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score
+TF-IDF + SVM,0.6,1.0,0.6,0.75

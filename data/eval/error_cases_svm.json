@@ -1,0 +1,34 @@
+[
+  {
+    "query_id": 5,
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "predicted": [
+      "case_062"
+    ],
+    "ground_truth": "case_014"
+  },
+  {
+    "query_id": 6,
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "predicted": [
+      "case_062"
+    ],
+    "ground_truth": "case_004"
+  },
+  {
+    "query_id": 9,
+    "query": "memperhatikan undang undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang undang nomor 5 tahun 2004 dan perubahan kedua dengan undang undang nomor 3 tahun 2009 serta peraturan perundang-undangan lain y",
+    "predicted": [
+      "case_065"
+    ],
+    "ground_truth": "case_055"
+  },
+  {
+    "query_id": 10,
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "predicted": [
+      "case_062"
+    ],
+    "ground_truth": "case_019"
+  }
+]

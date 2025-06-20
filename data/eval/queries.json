@@ -1,0 +1,42 @@
+[
+  {
+    "query": "memperhatikan undang undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana diubah dengan undang undang nomor 5 tahun 2004 dan perubahan kedua dengan undang undang nomor 3 tahun 2009 serta peraturan perundangan lain yang bersangku",
+    "ground_truth": "case_049"
+  },
+  {
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dan ditambah dengan undang- mahkamah agung republik indonesia mahkamah agung republik indonesia mahkamah agung republik indonesia mahkamah ag",
+    "ground_truth": "case_003"
+  },
+  {
+    "query": "memperhatikan undang undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana yang telah diubah dengan undang undang nomor 5 tahun 2004 dan perubahan kedua dengan undang undang nomor 3 tahun 2009 serta peraturan perundang-undangan l",
+    "ground_truth": "case_065"
+  },
+  {
+    "query": "menimbang bahwa terhadap gugatan tersebut tergugat ii mengajukan gugatan balik (rekonvensi) yang dalam gugatannya memohon kepada pengadilan negeri jakarta timur untuk memberikan putusan sebagai berikut: 1. mengabulkan dan menerima gugatan penggugat rekonvensi untuk seluruhnya; 2. menyatakan tergugat",
+    "ground_truth": "case_069"
+  },
+  {
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "ground_truth": "case_014"
+  },
+  {
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "ground_truth": "case_004"
+  },
+  {
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "ground_truth": "case_062"
+  },
+  {
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dan ditambah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan",
+    "ground_truth": "case_042"
+  },
+  {
+    "query": "memperhatikan undang undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang undang nomor 5 tahun 2004 dan perubahan kedua dengan undang undang nomor 3 tahun 2009 serta peraturan perundang-undangan lain y",
+    "ground_truth": "case_055"
+  },
+  {
+    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "ground_truth": "case_019"
+  }
+]
