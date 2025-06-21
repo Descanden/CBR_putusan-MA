@@ -1,33 +1,25 @@
 [
   {
-    "query_id": 5,
-    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "query_id": 8,
+    "query": "menimbang bahwa berdasarkan memori peninjauan kembali yang diterima tanggal 9 oktober 2024 merupakan bagian tidak terpisahkan dari putusan ini, pemohon peninjauan kembali pada pokoknya mendalilkan bahwa dalam putusan ini terdapat novum kemudian memohon putusan sebagai berikut: − menerima memori peninjauan kembali dari pemohon peninjauan kembali; − membatalkan putusan kasasi nomor 3103k/pdt/2023 juncto putusan pengadilan tinggi bandung nomor 101/pdt/2023/pt bdg juncto putusan pengadilan negeri be",
     "predicted": [
-      "case_062"
+      "case_003"
     ],
-    "ground_truth": "case_014"
-  },
-  {
-    "query_id": 6,
-    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
-    "predicted": [
-      "case_062"
-    ],
-    "ground_truth": "case_004"
+    "ground_truth": "case_042"
   },
   {
     "query_id": 9,
-    "query": "memperhatikan undang undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang undang nomor 5 tahun 2004 dan perubahan kedua dengan undang undang nomor 3 tahun 2009 serta peraturan perundang-undangan lain y",
+    "query": "menimbang bahwa berdasarkan memori peninjauan kembali yang diterima tanggal 21 november 2024 merupakan bagian tidak terpisahkan dari putusan ini, para pemohon peninjauan kembali pada pokoknya mendalilkan bahwa dalam putusan ini ditemukan bukti baru (novum) berupa: 1. akta pernyataan, nomor 2, tanggal 5 agustus 2024, yang dibuat oleh dan dihadapan dr. abdulgani mskhrup, s.h., m.kn., notaris dan sebagai pejabat pembuat akta tanah, alamat kantor di jalan zainuddin abdul majid, blok c, nomor 23, pan",
     "predicted": [
-      "case_065"
+      "case_042"
     ],
     "ground_truth": "case_055"
   },
   {
     "query_id": 10,
-    "query": "memperhatikan undang-undang nomor 48 tahun 2009 tentang kekuasaan kehakiman, undang-undang nomor 14 tahun 1985 tentang mahkamah agung sebagaimana telah diubah dengan undang-undang nomor 5 tahun 2004 dan perubahan kedua dengan undang-undang nomor 3 tahun 2009 serta peraturan perundangan lain yang ber",
+    "query": "menimbang bahwa alasan-alasan kasasi tersebut tidak dapat dibenarkan oleh karena setelah meneliti memori kasasi yang diterima tanggal 15 juli 2024 dan kontra memori kasasi yang diterima tanggal 29 juli 2024, dihubungkan dengan pertimbangan judex facti dalam hal ini pengadilan tinggi bandung yang menguatkan putusan pengadilan negeri tasikmalaya tidak salah menerapkan hukum, dengan pertimbangan sebagai berikut: - bahwa putusan judex facti sudah tepat dan benar, pengadilan negeri tidak berwenang me",
     "predicted": [
-      "case_062"
+      "case_004"
     ],
     "ground_truth": "case_019"
   }

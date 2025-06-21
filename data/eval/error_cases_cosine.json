@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "query_id": 9,
+    "query": "menimbang bahwa berdasarkan memori peninjauan kembali yang diterima tanggal 21 november 2024 merupakan bagian tidak terpisahkan dari putusan ini, para pemohon peninjauan kembali pada pokoknya mendalilkan bahwa dalam putusan ini ditemukan bukti baru (novum) berupa: 1. akta pernyataan, nomor 2, tanggal 5 agustus 2024, yang dibuat oleh dan dihadapan dr. abdulgani mskhrup, s.h., m.kn., notaris dan sebagai pejabat pembuat akta tanah, alamat kantor di jalan zainuddin abdul majid, blok c, nomor 23, pan",
+    "predicted": [
+      "case_003",
+      "case_042",
+      "case_062",
+      "case_065",
+      "case_053"
+    ],
+    "ground_truth": "case_055"
+  }
+]
