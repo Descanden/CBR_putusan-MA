@@ -1,31 +1,157 @@
-# Case-Based Reasoning pada Putusan Perdata PMH
-Sebuah pipeline end-to-end untuk membangun sistem Case-Based Reasoning (CBR) menggunakan dokumen putusan Mahkamah Agung dalam perkara Perdata – Perbuatan Melawan Hukum (PMH), dengan pembandingan pendekatan **TF-IDF + Cosine Similarity** dan **TF-IDF + SVM**.
+# Case-Based Reasoning on Civil Court Decisions (PMH)
+An end-to-end pipeline for building a Case-Based Reasoning (CBR) system using Supreme Court decisions in civil law—specifically *Perbuatan Melawan Hukum* (Unlawful Acts), comparing the performance of **TF-IDF + Cosine Similarity** and **TF-IDF + SVM** approaches.
 
-## Daftar Isi
+## Table of Contents
 - [Overview](#overview)
-- [Instalasi](#instalasi)
-- [Struktur Proyek](#struktur-proyek)
-- [Menjalankan Pipeline](#menjalankan-pipeline)
-  - [Tahap 1 – Membangun Case Base](#tahap-1--membangun-case-base)
-  - [Tahap 2 – Case Representation](#tahap-2--case-representation)
-  - [Tahap 3 – Case Retrieval](#tahap-3--case-retrieval)
-  - [Tahap 4 – Solution Reuse](#tahap-4--solution-reuse)
-  - [Tahap 5 – Model Evaluation](#tahap-5--model-evaluation)
-- [Hasil Evaluasi](#hasil-evaluasi)
-- [Lisensi & Kredit](#lisensi--kredit)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Running the Pipeline](#running-the-pipeline)
+- [Evaluation Results](#evaluation-results)
+- [License & Credits](#license--credits)
 
 ---
 
 ## Overview
 
-Proyek ini mengimplementasikan sistem *Case-Based Reasoning* untuk mendukung analisis dan rekomendasi hukum berdasarkan kasus-kasus sebelumnya. Pipeline ini mencakup lima tahap utama, dimulai dari scraping putusan, ekstraksi informasi, representasi vektor, pengambilan kasus, hingga evaluasi performa model.
+This project implements a *Case-Based Reasoning* system to support legal analysis and recommendation based on previous court cases. The pipeline includes five main stages: document scraping, information extraction, case representation, case retrieval, and solution evaluation — **all integrated into a single notebook file**: `casebase_build.ipynb`.
 
 ---
 
-## Instalasi
+## Installation
 
-### 1. Clone Repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/Descanden/CBR_putusan-MA.git
 cd CBR_putusan-MA
+```
 
+### 2. Create and Activate a Virtual Environment
+```bash
+python -m venv venv
+
+# For Windows
+venv\Scripts\activate
+
+# If PowerShell policy error:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+# For macOS/Linux
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+If `requirements.txt` is still empty, you can generate it automatically:
+```bash
+pip install pipreqs
+pipreqs . --force
+```
+
+---
+
+## Project Structure
+
+```bash
+CBR_putusan-MA/
+├── data/
+│   ├── raw/                     # Cleaned court decision texts
+│   ├── processed/               # Metadata, features, vector representations
+│   ├── results/                 # Predicted solutions
+│   └── eval/                    # Evaluation results and visualizations
+├── logs/                        # Text cleaning logs
+├── PMH_PDF/                     # Raw Supreme Court PDF files
+├── casebase_build.ipynb        # Complete CBR pipeline notebook
+├── README.md                   # Project documentation
+└── requirements.txt            # Python dependencies
+```
+
+---
+
+## Running the Pipeline
+
+All stages of the project are executed within the notebook file: `casebase_build.ipynb`.
+
+### 📘 Pipeline Stages:
+1. **Stage 1 – Case Base Construction**
+   - Read PDF files from `PMH_PDF/`
+   - Extract and clean text content
+   - Save cleaned text to `data/raw/`
+   - Write logs to `logs/cleaning.log`
+
+2. **Stage 2 – Case Representation**
+   - Extract metadata: case number, date, parties, legal articles
+   - Generate case fact summaries
+   - Build features: text length, Bag-of-Words, QA-pairs
+
+3. **Stage 3 – Case Retrieval**
+   - Convert text into TF-IDF vectors
+   - Build retrieval models:
+     - TF-IDF + Cosine Similarity
+     - TF-IDF + SVM classifier
+
+4. **Stage 4 – Solution Reuse**
+   - Retrieve the most similar past case
+   - Reuse the previous court verdict as prediction
+
+5. **Stage 5 – Evaluation**
+   - Evaluate model predictions using:
+     - Accuracy, Precision, Recall, F1-score
+   - Save evaluation outputs to `data/eval/`
+
+### 🔧 Run via:
+```bash
+jupyter notebook casebase_build.ipynb
+```
+
+---
+
+## Evaluation Results
+
+### TF-IDF + Cosine Similarity
+
+| Metric     | Score |
+|------------|-------|
+| Accuracy   | 0.90  |
+| Precision  | 1.00  |
+| Recall     | 0.90  |
+| F1-Score   | 0.947 |
+
+**CSV Output:**
+```cs
+model,accuracy,precision,recall,f1_score
+TF-IDF + Cosine,0.9,1.0,0.9,0.9473684210526315
+```
+
+---
+
+### TF-IDF + SVM
+
+| Metric     | Score |
+|------------|-------|
+| Accuracy   | 0.70  |
+| Precision  | 1.00  |
+| Recall     | 0.70  |
+| F1-Score   | 0.823 |
+
+**CSV Output:**
+```cs
+model,accuracy,precision,recall,f1_score
+TF-IDF + SVM,0.7,1.0,0.7,0.8235294117647058
+```
+
+---
+
+## License & Credits
+
+This project was developed as part of the course assignment **Computer Reasoning – 6th Semester**, Universitas Brawijaya.
+
+**Team Members:**
+- Rofiq Samanhudi (202210370311260)  
+- Muhammad Ikbar Ananda Sulistio (202210370311236)
+
+License: MIT License
+
+---
