@@ -74,7 +74,7 @@ CBR_putusan-MA/
 
 All stages of the project are executed within the notebook file: `casebase_build.ipynb`.
 
-### 📘 Pipeline Stages:
+### ❐ Pipeline Stages:
 1. **Stage 1 – Case Base Construction**
    - Read PDF files from `PMH_PDF/`
    - Extract and clean text content
@@ -101,7 +101,7 @@ All stages of the project are executed within the notebook file: `casebase_build
      - Accuracy, Precision, Recall, F1-score
    - Save evaluation outputs to `data/eval/`
 
-### 🔧 Run via:
+### ❐ Run via:
 ```bash
 jupyter notebook casebase_build.ipynb
 ```
@@ -119,11 +119,6 @@ jupyter notebook casebase_build.ipynb
 | Recall     | 0.90  |
 | F1-Score   | 0.947 |
 
-**CSV Output:**
-```cs
-model,accuracy,precision,recall,f1_score
-TF-IDF + Cosine,0.9,1.0,0.9,0.9473684210526315
-```
 
 ---
 
@@ -136,22 +131,15 @@ TF-IDF + Cosine,0.9,1.0,0.9,0.9473684210526315
 | Recall     | 0.70  |
 | F1-Score   | 0.823 |
 
-**CSV Output:**
-```cs
-model,accuracy,precision,recall,f1_score
-TF-IDF + SVM,0.7,1.0,0.7,0.8235294117647058
-```
 
 ---
 
 ## License & Credits
 
-This project was developed as part of the course assignment **Computer Reasoning – 6th Semester**, Universitas Brawijaya.
+This project was developed as part of the course assignment **Computer Reasoning – 6th Semester**, Universitas Muhammadiyah Malang.
 
 **Team Members:**
 - Rofiq Samanhudi (202210370311260)  
 - Muhammad Ikbar Ananda Sulistio (202210370311236)
-
-License: MIT License
 
 ---
