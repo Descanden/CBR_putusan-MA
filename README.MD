@@ -29,20 +29,3 @@ Proyek ini mengimplementasikan sistem *Case-Based Reasoning* untuk mendukung ana
 git clone https://github.com/Descanden/CBR_putusan-MA.git
 cd CBR_putusan-MA
 
----
-### Struktur Proyek
-```bash
-CBR_putusan-MA/
-├── data/
-│   ├── raw/                         # Dokumen putusan bersih
-│   ├── processed/                   # Metadata, fitur BoW, QA-pairs
-│   ├── eval/                        # Query, hasil evaluasi, grafik
-│   └── results/                     # Hasil prediksi solusi
-├── logs/                            # Log proses cleaning
-├── PMH_PDF/                         # PDF asli dari putusan
-├── casebase_build.ipynb            # Notebook Tahap 1
-├── 02_extract_metadata.py          # Script Tahap 2
-├── 03_retrieval.py                 # Script Tahap 3
-├── 04_predict.py                   # Script Tahap 4
-├── 05_evaluate.py                  # Script Tahap 5
-└── README.md                        # Dokumentasi proyek
