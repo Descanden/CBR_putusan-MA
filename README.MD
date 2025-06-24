@@ -142,4 +142,6 @@ This project was developed as part of the course assignment **Computer Reasoning
 - Rofiq Samanhudi (202210370311260)  
 - Muhammad Ikbar Ananda Sulistio (202210370311236)
 
+License: MIT License
+
 ---
