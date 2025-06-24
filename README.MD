@@ -149,4 +149,8 @@ This project was developed as part of the course assignment **Computer Reasoning
 
 This repository is licensed under the [MIT License](LICENSE), allowing for personal and educational use.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> 1b23575d82735c7c53daec504948d6dbe79e87a0
