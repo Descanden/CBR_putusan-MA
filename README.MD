@@ -136,12 +136,17 @@ jupyter notebook casebase_build.ipynb
 
 ## License & Credits
 
-This project was developed as part of the course assignment **Computer Reasoning – 6th Semester**, Universitas Muhammadiyah Malang.
+This project was developed as part of the course assignment **Computer Reasoning – 6th Semester**, Universitas Muhammadiyah Malang. All code, documentation, and resources are for educational purposes and are intended to be shared on GitHub for assignment submission.
 
 **Team Members:**
 - Rofiq Samanhudi (202210370311260)  
 - Muhammad Ikbar Ananda Sulistio (202210370311236)
 
-License: MIT License
+- **Professor/Instructor**: [Ir. Galih Wasis Wicaksono, S.kom. M.Cs.]  
+  For guidance and support throughout the project.
+
+### License
+
+This repository is licensed under the [MIT License](LICENSE), allowing for personal and educational use.
 
 ---
