@@ -145,7 +145,7 @@ This project was developed as part of the course assignment **Computer Reasoning
 - **Professor/Instructor**: [Ir. Galih Wasis Wicaksono, S.kom. M.Cs.]  
   For guidance and support throughout the project.
 
-### License
+**License**
 
 This repository is licensed under the [MIT License](LICENSE), allowing for personal and educational use.
 
